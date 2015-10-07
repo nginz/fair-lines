@@ -143,6 +143,7 @@ function basicFormat(chunks, options){
   var curLine = 0,
     lineChunks = [],
     lines = [];
+  var i, l;
 
   for (i = 0; i < chunks.length; i++) {
     var chunk = chunks[i];
